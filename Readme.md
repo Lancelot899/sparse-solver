@@ -22,9 +22,13 @@ SparseBlockMatrix( const int * rbi, const int* cbi, int rb, int cb, bool hasStor
 ```
 
 the first param is sum of the block size of each rows in the system. e.g. int rbi[] = {3, 6, 9} means the size of first row is 3 and the size of second row is 6 - 3 = 3.
+
 the second param is sum of the block size of each cols in the system. e.g. int cbi[] = {3, 6, 9} means the size of first col is 3 and the size of second col is 6 - 3 = 3.
+
 the third param is the number of blocks of row
+
 the third param is the number of blocks of col
+
 
 ----------------------------------------------------------------
 

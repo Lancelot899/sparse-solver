@@ -1,0 +1,13 @@
+build/
+deps/
+.project
+.cproject
+*.user
+*build*
+.idea*
+*.so
+*.dylib
+*.a
+*.code
+*.DS_Store*
+.vscode*
